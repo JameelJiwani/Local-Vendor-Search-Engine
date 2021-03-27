@@ -1,0 +1,63 @@
+/* This for the top part of the restaurant page (part with photo background before menu)  */
+
+.top_section_detail {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px !important;
+    max-height: 640px !important;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../images/OutdoorDining.jpg");
+}
+
+.image_format {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.top_section_body {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.opacity-mask {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lower-textbox {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    padding: 0 10px 40px 10px;
+    font-weight: 500;
+}
+
+.textbox-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
