@@ -3,8 +3,8 @@
 }
 
 .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+  height: 5vmin;
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -47,11 +47,9 @@
 }
 
 .logo {
-    float: left;
-    width: 120px;
-    height: 31px;
-    margin: 16px 24px 16px 0;
-    background: rgba(255, 255, 255, 0.3);
+  float: left;
+  height: 5vmin;
+  margin: 16px 24px 16px 0;
 }
 
 .ant-row-rtl .logo {
@@ -60,5 +58,14 @@
 }
 
 [data-theme="dark"] .site-layout-content {
-    background: #141414;
+  background: #141414;
+}
+
+.ant-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ant-layout-header {
+  background-color: rgb(255, 255, 255);
 }
