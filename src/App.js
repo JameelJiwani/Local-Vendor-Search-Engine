@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import { Layout, Menu, Breadcrumb } from 'antd';
+import 'antd/dist/antd.css';
+import Categories from "./Categories";
+
+
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -17,12 +21,7 @@ function App() {
           </Menu>
         </Header>
         <Content style={{ padding: '0 50px' }}>
-          <Breadcrumb style={{ margin: '16px 0' }}>
-            <Breadcrumb.Item>Home</Breadcrumb.Item>
-            <Breadcrumb.Item>List</Breadcrumb.Item>
-            <Breadcrumb.Item>App</Breadcrumb.Item>
-          </Breadcrumb>
-          <div className="site-layout-content">Content</div>
+         <Categories></Categories>
         </Content>
         <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
       </Layout>
