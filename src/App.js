@@ -6,7 +6,7 @@ import Categories from "./Categories";
 
 
 
-const { Header, Footer } = Layout;
+const { Header, Footer, Content } = Layout;
 
 function App() {
   return (

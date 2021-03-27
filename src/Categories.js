@@ -6,7 +6,7 @@ import asian from "./assets/icons/noodles.png";
 import italian from "./assets/icons/pizza.png";
 import vegan from "./assets/icons/vegetable.png";
 import mexican from "./assets/icons/taco.png";
-import './App.css';
+import './App.scss';
 
 function onChange(a, b, c) {
     console.log(a, b, c);
