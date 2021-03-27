@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -46,15 +46,22 @@
 }
 .logo {
   float: left;
-  width: 120px;
-  height: 31px;
+  height: 5vmin;
   margin: 16px 24px 16px 0;
-  background: rgba(255, 255, 255, 0.3);
 }
 .ant-row-rtl .logo {
   float: right;
   margin: 16px 0 16px 24px;
 }
-  [data-theme="dark"] .site-layout-content {
-    background: #141414;
-  }
+[data-theme="dark"] .site-layout-content {
+  background: #141414;
+}
+
+.ant-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ant-layout-header {
+  background-color: rgb(255, 255, 255);
+}
