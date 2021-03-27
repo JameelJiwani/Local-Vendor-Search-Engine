@@ -44,11 +44,37 @@
   padding: 24px;
   background: #fff;
 }
+
 .logo {
   float: left;
   height: 5vmin;
   margin: 16px 24px 16px 0;
 }
+
+.button{
+  height: 100px;
+  background-color: rgba(255, 255, 255,0);
+  border-style: none;
+  margine: auto;
+  width: 25%;
+  padding: 15px;
+}
+
+.button1{
+  height: 100px;
+  background-color: rgba(255, 255, 255,0);
+  border-style: none;
+  margine: auto;
+  width: 25%;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.images{
+  height: 90px;
+  width: 90px;
+}
+
 .ant-row-rtl .logo {
   float: right;
   margin: 16px 0 16px 24px;
@@ -56,7 +82,11 @@
 [data-theme="dark"] .site-layout-content {
   background: #141414;
 }
+.slick-dots{
+  position: absolute;
+  top: 130px;
 
+}
 .ant-menu {
   display: flex;
   justify-content: flex-end;
