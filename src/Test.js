@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import './assets/css/resTemplate.css';
 import { Row, Col } from 'antd';
 import OutdoorDining from "./assets/images/OutdoorDining.jpg"

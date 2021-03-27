@@ -30,10 +30,10 @@ function App() {
           </Row>
         </Header>
         <Test/>
-        <Content style={{ padding: '0 50px' }}>
+        {/* <Content style={{ padding: '0 50px' }}>
          <Categories></Categories>
         </Content>
-        <LandingPage/>
+        <LandingPage/> */}
 
         <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
       </Layout>
