@@ -3,8 +3,12 @@ import './App.scss';
 import { Layout, Menu, Row, Col } from 'antd';
 import LandingPage from './pages/LandingPage.js'
 import Test from './Test.js'
+import Categories from "./Categories";
 
-const { Header, Footer } = Layout;
+
+
+
+const { Header, Footer, Content } = Layout;
 
 function App() {
   return (
@@ -26,7 +30,11 @@ function App() {
           </Row>
         </Header>
         <Test/>
+        <Content style={{ padding: '0 50px' }}>
+         <Categories></Categories>
+        </Content>
         <LandingPage/>
+
         <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
       </Layout>
     </>
