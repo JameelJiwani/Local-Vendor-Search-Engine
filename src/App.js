@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Test from './Test.js'
 import { Layout, Menu, Breadcrumb } from 'antd';
 
 const { Header, Footer, Sider, Content } = Layout;
@@ -23,6 +24,7 @@ function App() {
             <Breadcrumb.Item>App</Breadcrumb.Item>
           </Breadcrumb>
           <div className="site-layout-content">Content</div>
+          <Test/>
         </Content>
         <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
       </Layout>
