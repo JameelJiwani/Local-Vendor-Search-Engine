@@ -29,11 +29,11 @@ function App() {
             </Col>
           </Row>
         </Header>
-        <Test/>
-        {/* <Content style={{ padding: '0 50px' }}>
+        {/* <Test/>
+        <Content style={{ padding: '0 50px' }}>
          <Categories></Categories>
-        </Content>
-        <LandingPage/> */}
+        </Content> */}
+        <LandingPage/>
 
         <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
       </Layout>
