@@ -4,6 +4,7 @@ import { Layout, Menu, Row, Col } from 'antd';
 import LandingPage from './pages/LandingPage.js'
 import Test from './Test.js'
 import Categories from "./Categories";
+import Info from './Info';
 
 
 
@@ -29,7 +30,7 @@ function App() {
             </Col>
           </Row>
         </Header>
-        <Test/>
+        <Info/>
         {/* <Content style={{ padding: '0 50px' }}>
          <Categories></Categories>
         </Content>

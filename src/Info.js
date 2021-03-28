@@ -13,6 +13,11 @@ import sushi from "./assets/images/sushi.jpg"
 function Info() {
     return ( 
     <div className = "container" >
+                <p className = "header-text no-margines">Pizzeria da Alfredo ITALIAN</p>
+                <p className = "header-text font-colour1 font-italics smaller-font">27 Old Gloucester St, 4530</p>
+                <hr></hr>
+
+
         <p className = "header-text">
         Information:
         </p>
