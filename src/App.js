@@ -2,6 +2,7 @@ import logo from './assets/icons/logo.png';
 import './App.scss';
 import {Layout, Menu, Row, Col, Carousel} from 'antd';
 import LandingPage from './pages/LandingPage.js'
+import Test from './Test.js'
 import Categories from "./Categories";
 
 
@@ -27,11 +28,12 @@ function App() {
             </Col>
           </Row>
         </Header>
-
+        {/* <Test/>
         <Content style={{ padding: '0 50px' }}>
          <Categories> </Categories>
         </Content>
-
+         <Categories></Categories>
+        </Content> */}
         <LandingPage/>
 
         <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
