@@ -50,29 +50,21 @@
   height: 5vmin;
   margin: 16px 24px 16px 0;
 }
-
-.button{
-  height: 100px;
-  background-color: rgba(255, 255, 255,0);
+.button {
+  background-color: white;
   border-style: none;
-  margine: auto;
-  width: 25%;
-  padding: 15px;
+  padding: 30px 30px;
+  cursor: pointer;
+  margin: 3em;
 }
 
-.button1{
-  height: 100px;
-  background-color: rgba(255, 255, 255,0);
-  border-style: none;
-  margine: auto;
-  width: 25%;
-  padding: 20px;
-  margin-right: 50px;
+.images:hover{
+  filter: contrast(90%);
 }
-
 .images{
-  height: 90px;
-  width: 90px;
+  border-radius: 95px;
+  max-width: 100%;
+
 }
 
 .ant-row-rtl .logo {
@@ -82,9 +74,10 @@
 [data-theme="dark"] .site-layout-content {
   background: #141414;
 }
+//for the two dot buttons
 .slick-dots{
   position: absolute;
-  top: 130px;
+  top: 400px;
 
 }
 .ant-menu {
@@ -94,4 +87,39 @@
 
 .ant-layout-header {
   background-color: rgb(255, 255, 255);
+}
+
+.ant-layout-content{
+  background-color: white;
+  height: 305px;
+}
+//for the buttons where the famous stuff is
+.slick-track{
+  height: 400px;
+}
+
+.slick-slide{
+  align-items: center;
+
+}
+
+.responsive{
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+@media all and (max-width: 190px) {
+  .button{
+    display: flex;
+  }
+  .images{
+    display: flex;
+  }
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

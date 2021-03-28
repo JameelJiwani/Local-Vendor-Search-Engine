@@ -1,9 +1,8 @@
 import logo from './assets/icons/logo.png';
 import './App.scss';
-import { Layout, Menu, Row, Col } from 'antd';
+import {Layout, Menu, Row, Col, Carousel} from 'antd';
 import LandingPage from './pages/LandingPage.js'
 import Categories from "./Categories";
-
 
 
 const { Header, Footer, Content } = Layout;
@@ -13,6 +12,7 @@ function App() {
     <>
       <Layout>
         <Header>
+
           <Row>
             <Col span={12}>
               <img src={logo} className="logo" alt="logo" />
@@ -29,7 +29,7 @@ function App() {
         </Header>
 
         <Content style={{ padding: '0 50px' }}>
-         <Categories></Categories>
+         <Categories> </Categories>
         </Content>
 
         <LandingPage/>
