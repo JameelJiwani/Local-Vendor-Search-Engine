@@ -1,12 +1,14 @@
 import { Carousel, Radio } from 'antd';
-import northAmerican from "./assets/icons/burger.png";
-import indian from "./assets/icons/chili-pepper.png";
-import dessert from "./assets/icons/cupcake.png";
-import asian from "./assets/icons/noodles.png";
-import italian from "./assets/icons/pizza.png";
-import vegan from "./assets/icons/vegetable.png";
-import mexican from "./assets/icons/taco.png";
+import northAmerican from "./assets/icons/northAmerican.png";
+import indian from "./assets/icons/indian.png";
+import dessert from "./assets/icons/dessert.png";
+import asian from "./assets/icons/noodles-test.jpg";
+import italian from "./assets/icons/italian.png";
+import vegan from "./assets/icons/vegan.png";
+import mexican from "./assets/icons/mexican.png";
+import middleEastern from "./assets/icons/middleEastern.png";
 import './App.scss';
+import {Button} from 'antd'
 
 function onChange(a, b, c) {
     console.log(a, b, c);
@@ -20,23 +22,28 @@ const contentStyle = {
 };
 function Categories() {
     return (
+
         <Carousel afterChange={onChange}>
+
             <div>
-                <button className={"button"}><img className={"images"} src={northAmerican}></img></button>
-                <button className={"button"}><img className={"images"} src={mexican}></img></button>
-                <button className={"button"}><img className={"images"} src={italian}></img></button>
-                <button className={"button"}><img className={"images"} src={asian}></img></button>
+                {/*Add the alt attribute to these images in case they dont load*/}
+                <Button className={"button"}><img className={"images responsive"} src={northAmerican}></img></Button>
+                <button className={"button"}><img className={"images responsive"} src={mexican}></img></button>
+                <button className={"button"}><img className={"images responsive"} src={italian}></img></button>
+                <button className={"button"}><img className={"images responsive"} src={asian}></img></button>
             </div>
+
             <div>
-                <button className={"button1"}><img className={"images"} src={indian}></img></button>
-                <button className={"button1"}><img className={"images"} src={vegan}></img></button>
-                <button className={"button1"}><img className={"images"} src={dessert}></img></button>
-            </div>
+                <button className={"button"}><img className={"images responsive"} src={indian}></img></button>
+                <button className={"button"}><img className={"images responsive"} src={vegan}></img></button>
+                <button className={"button"}><img className={"images responsive"} src={dessert}></img></button>
+                <button className={"button"}><img className={"images responsive"} src={middleEastern}></img></button>
+                </div>
+
         </Carousel>
 
     );
 }
 
-export default Categories;
 
-//
+export default Categories;

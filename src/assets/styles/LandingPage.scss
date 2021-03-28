@@ -1,16 +1,31 @@
 .landing-image {
-    background-image: url('../images/food.jpg');
+    background-image: url('../images/image.png');
+    
     background-size: 300px 100px;
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vmax;
 }
 
+.landing-title {
+    margin-top: 25vh;
+}
+
+.white {
+    color: white;
+    font-family: "Poppins",Helvetica,sans-serif;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+}
+
 .search-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    // height: 60vh;
 }
 
 .search-form-group {
@@ -21,7 +36,28 @@
     padding: 5px;
 }
 
+// Is this being used?
 .filter {
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    // border-right-color: currentcolor;
+    // border-right-style: none;
+    // border-right-width: 0px;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
     border-top-color: currentcolor;
     border-top-style: none;
     border-top-width: 0px;
