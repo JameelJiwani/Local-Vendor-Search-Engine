@@ -8,7 +8,7 @@ import vegan from "./assets/icons/vegan.png";
 import mexican from "./assets/icons/mexican.png";
 import middleEastern from "./assets/icons/middleEastern.png";
 import './App.scss';
-import {Button} from 'reactstrap'
+import {Button} from 'antd'
 
 function onChange(a, b, c) {
     console.log(a, b, c);
