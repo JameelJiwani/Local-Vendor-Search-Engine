@@ -4,6 +4,7 @@ import {Layout, Menu, Row, Col, Carousel} from 'antd';
 import LandingPage from './pages/LandingPage.js'
 import Test from './Test.js'
 import Categories from "./Categories";
+import Info from './Info';
 
 
 const { Header, Footer, Content } = Layout;
@@ -28,15 +29,9 @@ function App() {
             </Col>
           </Row>
         </Header>
-        {/* <Test/>
-        <Content style={{ padding: '0 50px' }}>
-         <Categories> </Categories>
-        </Content>
-         <Categories></Categories>
-        </Content> */}
         <LandingPage/>
         <Categories/>
-
+        <Info/>
         <Footer style={{ textAlign: 'center' }}>Created for WinHacks!</Footer>
       </Layout>
     </>

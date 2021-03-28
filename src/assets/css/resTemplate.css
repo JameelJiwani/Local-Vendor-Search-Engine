@@ -2,17 +2,36 @@
 
 .top_section_detail {
     width: 100%;
+    height: 100%;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1280px !important;
+    /* max-width: 1280px !important; */
     max-height: 640px !important;
-    position: relative;
+    position: fixed;
     overflow: hidden;
-    color: #fff;
+    color: #000;
     text-align: left;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url("../images/OutdoorDining.jpg");
+    border: 2px solid black;
+    padding: 25px;
+    background-size: auto;
+    border: 50px black;
+    padding: 15px;
+    background-clip: padding-box;
+    border: 8px solid black;
+    padding: 25px;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    /* left: 50%;
+    margin-left: -512px; */
+}
+
+.x {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: padding-box;
 }
 
 .image_format {
@@ -55,9 +74,37 @@
     font-weight: 500;
 }
 
-.textbox-row {
+.textbox-row-left {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+
+.textbox-row-right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 800px;
+}
+
+.smaller-header-text {
+    font-size: medium;
+}
+
+.no-margines {
+    margin-block-end: 0%;
+}
+
+.font-italics {
+    font-style: italic;
+}
+
+.smaller-font {
+    font-size: smaller;
+}
+
+.header-text {
+    font-size: x-large;
+    font-weight: bold;
 }
